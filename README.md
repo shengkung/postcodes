@@ -270,7 +270,7 @@ While we strive to keep the data accurate and up-to-date, postal codes may chang
 
 ## Author
 
-簡盛弓 (Carter Chein)
+- [簡盛弓 (Carter Chein)](https://www.facebook.com/shengkung)
 
 ---
 
