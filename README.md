@@ -27,6 +27,7 @@ This repository contains postal code (ZIP code) data for multiple countries in J
 | Country | File | Regions | Description |
 |---------|------|---------|-------------|
 | 🇹🇼 Taiwan | `Taiwan.json` | 22 counties/cities | Complete postal codes for all districts (完整的鄉鎮市區郵遞區號) |
+| 🇹🇼 Taiwan (EN) | `Taiwan_EN.json` | 22 counties/cities | Taiwan postcodes with English region names (台灣郵遞區號英文版) |
 | 🇨🇳 China | `China.json` | 34 provinces | Major cities and provinces (主要城市和省份) |
 | 🇯🇵 Japan | `Japan.json` | 47 prefectures | All prefectures with cities/towns/villages (所有都道府縣及市町村) |
 | 🇵🇭 Philippines | `Philippines.json` | 81 provinces | Complete provincial coverage (完整省份覆蓋) |
@@ -35,7 +36,7 @@ This repository contains postal code (ZIP code) data for multiple countries in J
 
 ## Data Structure
 
-### Taiwan Example
+### Taiwan Example (Chinese)
 
 ```json
 {
@@ -47,6 +48,22 @@ This repository contains postal code (ZIP code) data for multiple countries in J
   "新北市": {
     "板橋區": "220",
     "三重區": "241"
+  }
+}
+```
+
+### Taiwan Example (English)
+
+```json
+{
+  "Taipei City": {
+    "Zhongzheng District": "100",
+    "Datong District": "103",
+    "Zhongshan District": "104"
+  },
+  "New Taipei City": {
+    "Banqiao District": "220",
+    "Sanchong District": "241"
   }
 }
 ```
