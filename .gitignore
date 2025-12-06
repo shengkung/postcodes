@@ -1,0 +1,22 @@
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHP
+vendor/
+composer.lock
+
+# Config
+config.php
+.env
+
+# Test files
+test.php
+tests/
+
